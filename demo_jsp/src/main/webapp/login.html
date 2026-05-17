@@ -1,0 +1,18 @@
+<html>
+<head>
+    <meta charset="UTF-8">
+    <title>Login Page</title>
+</head>
+<body>
+<h2>Login Form</h2>
+<form action="validate.jsp" method="post">
+    Username:
+    <input type="text" name="uname" required>
+    <br><br>
+    Password:
+    <input type="password" name="pass" required>
+    <br><br>
+    <input type="submit" value="Login">
+</form>
+</body>
+</html>
